@@ -1,1 +1,100 @@
-12341
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой первый HTML‑код</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body { font-family: sans-serif;
+            background: linear-gradient(135deg, #a8e6cf 0%, #dcedc1 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px; 
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 25px;
+            padding: 30px;
+            margin-bottom: 20px;
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #2c5530;
+        }
+
+        h2 {
+            color: #1b664d;
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+            font-weight: 500;
+            font-weight: bold;
+        }
+        h3{color: rgb(85, 33, 133);
+            border-radius: 30px;
+            font-weight: bold;
+        }
+
+        .high-Light-box {
+            background-color: rgba(133, 192, 138, 0.4);
+            border-radius: 15px;
+            width: 300px;
+            padding: 20px;
+            height: 120px;
+            margin: 0 auto;
+            text-align: center;
+            line-height: 80px;
+            font-family:'Arial Narrow';
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #2a4d32;
+        }
+        .image-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 800px;
+  overflow: hidden;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.text-overlay {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  color: rgb(113, 27, 27);
+  font-size: 24px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Всем привет!</h1>
+        <h2>Это мой первый HTML‑код</h2>
+        <div class="high-Light-box">123498398!</div>
+    </div>
+    <h3 class="image-container">
+        <img src="D:\istockphoto-693967712-170667a.jpg" alt="горящая бумага">
+        <h3 class="text-overlay">я даже не знаю, что ещё можно написать</div>
+    </h3>   
+</body>
+</html>
